@@ -298,12 +298,16 @@
       <groupId>pentaho-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <version>${pentaho-kettle.version}</version>
+      <!--
+      <scope>compile</scope>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
           <artifactId>*</artifactId>
         </exclusion>
       </exclusions>
+      -->
+      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>pentaho-kettle</groupId>
